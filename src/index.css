@@ -348,6 +348,34 @@ p {
   justify-content: center;
   margin: 30px;
 }
+.call{
+  display: none;
+}
+/* .call{
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around ;
+  background-color: white;
+  width: 760px;
+  padding: 10px;
+}
+.call1{
+  display: flex;
+}
+.call1 label{
+  margin: 8px 20px 0px;
+}
+.call2 label{
+  background-color: rgb(30, 165, 218);
+  padding: 10px 160px;
+  border-radius: 10px;
+}
+.call2 a{
+  color: white;
+  text-decoration: underline;
+  margin-left: 10px;
+} */
 
 /* =================================== Second page =================================== */
 
@@ -406,6 +434,7 @@ p {
 .navbar22 input {
   padding: 3px;
   width: 250px;
+  border: 1px solid rgb(196, 195, 195);
 }
 
 /* second */
@@ -569,6 +598,31 @@ p {
     margin: 15px 0px 0px -50px;
     font-size: 25px;
   }
+  .call{
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around ;
+    background-color: white;
+    width: 760px;
+    padding: 10px;
+  }
+  .call1{
+    display: flex;
+  }
+  .call1 label{
+    margin: 8px 20px 0px;
+  }
+  .call2 label{
+    background-color: rgb(30, 165, 218);
+    padding: 10px 160px;
+    border-radius: 10px;
+  }
+  .call2 a{
+    color: white;
+    text-decoration: underline;
+    margin-left: 10px;
+  }
 }
 
 /* ====== Secondpage ====== */
@@ -661,7 +715,7 @@ p {
     margin-top: 5px;
   }
 
-  .footer {
+  .llllllllll{
     display: none;
   }
 

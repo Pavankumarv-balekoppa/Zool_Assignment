@@ -143,7 +143,7 @@ const Second = () => {
                     <div id="lastlist">
                         <h3 style={{ marginLeft: 150 }}>Articles based on Health interests</h3>
                         <ul>
-                            <li style={{listStyle:"none"}}>Healthy Eating</li>
+                            <li style={{ listStyle: "none" }}>Healthy Eating</li>
                             <li>Everyday Fitness</li>
                             <li>Oral hygiene</li>
                             <li>Weight Loss</li>
@@ -152,7 +152,7 @@ const Second = () => {
                             <li>Diabetes</li>
                             <li>Skin Care</li>
                             <li>Pregnancy</li>
-                            <li style={{listStyle:"none"}}>Healthy Skin</li>
+                            <li style={{ listStyle: "none" }}>Healthy Skin</li>
                             <li>Acne</li>
                             <li>Hair loss</li>
                             <li>Back Pain</li>
@@ -166,101 +166,103 @@ const Second = () => {
                 </div>
             </section>
 
-            <section className="footer">
-                <div className="foot1">
-                    <div className="fo">
-                        <a href="">
-                            <ul>
-                                <li>Practo</li>
-                                <li>About</li>
-                                <li>Blog</li>
-                                <li>Careers</li>
-                                <li>Press</li>
-                                <li>Contact Us</li>
-                            </ul>
-                        </a>
+            <div className="llllllllll">
+                <section className="footer">
+                    <div className="foot1">
+                        <div className="fo">
+                            <a href="">
+                                <ul>
+                                    <li>Practo</li>
+                                    <li>About</li>
+                                    <li>Blog</li>
+                                    <li>Careers</li>
+                                    <li>Press</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div className="fo">
+                            <a href="">
+                                <ul>
+                                    <li>For patients</li>
+                                    <li>Search for doctors</li>
+                                    <li>Search for clinics</li>
+                                    <li>Search for hospitals</li>
+                                    <li>Book Diagnostic Tests</li>
+                                    <li>Book Full Body Checkups</li>
+                                    <li>Practo Plus</li>
+                                    <li>Covid Hospital listing</li>
+                                    <li>Practo Care Clinics</li>
+                                    <li>Read health articles</li>
+                                    <li>Read about medicines</li>
+                                    <li>Practo drive</li>
+                                    <li>Health app</li>
+                                    <li>Practo Plus Infinity</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div className="fo">
+                            <a href="">
+                                <ul>
+                                    <li>For doctors</li>
+                                    <li>Practo Profile</li><br />
+                                    <li>For clinics</li>
+                                    <li>Ray by Practo</li>
+                                    <li>Practo Reach</li>
+                                    <li>Ray Tab</li>
+                                    <li>Practo Pro</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div className="fo">
+                            <a href="">
+                                <ul>
+                                    <li>For hospitals</li>
+                                    <li>Insta by Practo</li>
+                                    <li>Qikwell by Practo</li>
+                                    <li>Practo Profile</li>
+                                    <li>Practo Reach</li>
+                                    <li>Practo Drive</li><br />
+                                    <li>For Corporates</li>
+                                    <li>Wellness Plans</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div className="fo">
+                            <a href="">
+                                <ul>
+                                    <li>More</li>
+                                    <li>Help</li>
+                                    <li>Developers</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Terms & Conditions</li>
+                                    <li>PCS T&C</li>
+                                    <li>Healthcare Directory</li>
+                                    <li>Practo Health Wiki</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div className="fo">
+                            <a href="">
+                                <ul>
+                                    <li>Social</li>
+                                    <li>Facebook</li>
+                                    <li>Twitter</li>
+                                    <li>LinkedIn</li>
+                                    <li>Youtube</li>
+                                    <li>Github</li>
+                                </ul>
+                            </a>
+                        </div>
                     </div>
-                    <div className="fo">
-                        <a href="">
-                            <ul>
-                                <li>For patients</li>
-                                <li>Search for doctors</li>
-                                <li>Search for clinics</li>
-                                <li>Search for hospitals</li>
-                                <li>Book Diagnostic Tests</li>
-                                <li>Book Full Body Checkups</li>
-                                <li>Practo Plus</li>
-                                <li>Covid Hospital listing</li>
-                                <li>Practo Care Clinics</li>
-                                <li>Read health articles</li>
-                                <li>Read about medicines</li>
-                                <li>Practo drive</li>
-                                <li>Health app</li>
-                                <li>Practo Plus Infinity</li>
-                            </ul>
-                        </a>
+                    <div className="foot2">
+                        <div className="im">
+                            <img src="https://www.practostatic.com/web-assets/images/white_practo_logo.svg" alt="" />
+                            <p style={{ color: "white", marginTop: 20 }}>Copyright © 2017, Practo. All rights reserved.</p>
+                        </div>
                     </div>
-                    <div className="fo">
-                        <a href="">
-                            <ul>
-                                <li>For doctors</li>
-                                <li>Practo Profile</li><br />
-                                <li>For clinics</li>
-                                <li>Ray by Practo</li>
-                                <li>Practo Reach</li>
-                                <li>Ray Tab</li>
-                                <li>Practo Pro</li>
-                            </ul>
-                        </a>
-                    </div>
-                    <div className="fo">
-                        <a href="">
-                            <ul>
-                                <li>For hospitals</li>
-                                <li>Insta by Practo</li>
-                                <li>Qikwell by Practo</li>
-                                <li>Practo Profile</li>
-                                <li>Practo Reach</li>
-                                <li>Practo Drive</li><br />
-                                <li>For Corporates</li>
-                                <li>Wellness Plans</li>
-                            </ul>
-                        </a>
-                    </div>
-                    <div className="fo">
-                        <a href="">
-                            <ul>
-                                <li>More</li>
-                                <li>Help</li>
-                                <li>Developers</li>
-                                <li>Privacy Policy</li>
-                                <li>Terms & Conditions</li>
-                                <li>PCS T&C</li>
-                                <li>Healthcare Directory</li>
-                                <li>Practo Health Wiki</li>
-                            </ul>
-                        </a>
-                    </div>
-                    <div className="fo">
-                        <a href="">
-                            <ul>
-                                <li>Social</li>
-                                <li>Facebook</li>
-                                <li>Twitter</li>
-                                <li>LinkedIn</li>
-                                <li>Youtube</li>
-                                <li>Github</li>
-                            </ul>
-                        </a>
-                    </div>
-                </div>
-                <div className="foot2">
-                    <div className="im">
-                        <img src="https://www.practostatic.com/web-assets/images/white_practo_logo.svg" alt="" />
-                        <p style={{ color: "white", marginTop: 20 }}>Copyright © 2017, Practo. All rights reserved.</p>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>
 
             <section className="media">
                 <select name="one" id="">

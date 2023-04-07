@@ -330,6 +330,15 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <div className="call">
+                    <div className="call1">
+                        <img width={38} src="./images/call.jpg" alt="" />
+                        <label htmlFor="">Get end to end surgical care</label>
+                    </div>
+                    <div className="call2">
+                        <label><img width={17} src="./images/call_symbol.jpg" alt="" /><a href="">Book Appointment</a></label>
+                    </div>
+                </div>
         </div>
     );
 }
