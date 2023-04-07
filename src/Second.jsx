@@ -138,12 +138,12 @@ const Second = () => {
                                 </Link>
                             </div>
                         </div>
-                        <p id="p" style={{ fontSize: 11, marginTop: -80, marginLeft: 150, paddingBottom: 20 }}>Home > Health Articles > Viruses , Common cold > 12 Coronavirus Myths and Facts That You Should Be Aware Of</p>
+                        <p id="p" style={{ fontSize: 12, marginTop: -80, marginLeft: 150, paddingBottom: 20 }}>Home > Health Articles > Viruses , Common cold > 12 Coronavirus Myths and Facts That You Should Be Aware Of</p>
                     </div>
                     <div id="lastlist">
                         <h3 style={{ marginLeft: 150 }}>Articles based on Health interests</h3>
                         <ul>
-                            <li>Healthy Eating</li>
+                            <li style={{listStyle:"none"}}>Healthy Eating</li>
                             <li>Everyday Fitness</li>
                             <li>Oral hygiene</li>
                             <li>Weight Loss</li>
@@ -152,7 +152,7 @@ const Second = () => {
                             <li>Diabetes</li>
                             <li>Skin Care</li>
                             <li>Pregnancy</li>
-                            <li>Healthy Skin</li>
+                            <li style={{listStyle:"none"}}>Healthy Skin</li>
                             <li>Acne</li>
                             <li>Hair loss</li>
                             <li>Back Pain</li>
@@ -328,9 +328,7 @@ const Second = () => {
                         <p style={{ color: "white", marginTop: 20 }}>Copyright © 2017, Practo. All rights reserved.</p>
                     </div>
                 </div>
-
             </section>
-
         </div>
     );
 }

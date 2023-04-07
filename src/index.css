@@ -198,8 +198,9 @@ p {
 }
 
 .box img {
-  width: 240px;
-  height: 180px;
+  width: 270px;
+  height: 200px;
+  border-radius: 5px;
 }
 
 .box h4 {
@@ -215,7 +216,7 @@ p {
 }
 
 .box {
-  width: 240px;
+  width: 270px;
   padding: 7px;
   margin: 0px 6px;
 }
@@ -322,7 +323,7 @@ p {
 
 /* footer */
 .footer {
-  padding: 20px 50px;
+  padding: 20px 150px;
   background-color: rgb(47, 47, 138);
 }
 
@@ -424,13 +425,15 @@ p {
 
 .two2 {
   background-color: rgb(243, 243, 243);
-  margin: 0px 100px;
+  margin: 0px 200px;
 }
 
 .two22 {
   display: flex;
 }
-
+#p{
+  color: rgb(94, 94, 94);
+}
 #two3 {
   background-color: white;
   width: 470px;
@@ -497,13 +500,16 @@ p {
 #lastlist ul {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 100px;
+  margin-left: 85px;
 }
-
+#lastlist h3{
+  color:rgb(51, 51, 51) ;
+  font-weight:lighter;
+}
 #lastlist li {
   margin-left: 25px;
   color: rgb(73, 73, 73);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 #lastlist li:hover {
@@ -514,6 +520,7 @@ p {
   width: 1150px;
   padding-bottom: 50px;
   margin-bottom: 100px;
+  margin-left: 100px;
 }
 
 .media {
