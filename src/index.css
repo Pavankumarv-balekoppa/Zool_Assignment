@@ -1,0 +1,697 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 60px 17px;
+}
+
+.nav1 {
+  margin: 17px 160px 0px 0px;
+  display: flex;
+}
+
+.bx {
+  display: none;
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: rgb(75, 74, 74);
+  margin: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav2 {
+  /* margin-top: 17px; */
+  margin: 7px 20px 0px 0px;
+}
+
+#dis {
+  display: none;
+}
+
+.nav2 select {
+  border: none;
+  width: 110px;
+  font-size: 14px;
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav2 button {
+  padding: 6px;
+  font-size: 11px;
+  width: 80px;
+  background-color: white;
+  border: 1px solid rgb(99, 99, 99);
+  color: rgb(145, 145, 145);
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+hr {
+  border: 1px solid rgb(231, 231, 231);
+}
+
+
+/* section 2 */
+
+.Search-photo,
+.link-page {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.photo1 img{
+  width: 1200px;
+  height: 380px;
+}
+.in2 a {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  width: 230px;
+  height: 37px;
+  margin-right: -20px;
+}
+
+.in1 {
+  display: flex;
+}
+
+.in1 input {
+  padding: 10px;
+  border: 1px solid rgb(141, 141, 141);
+  width: 220px;
+}
+
+.input1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+/* photo2 */
+.photo2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 180px;
+  height: 270px;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 2px 7px 10px 1px rgb(151, 151, 151);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+
+.card p {
+  color: rgb(117, 117, 117);
+}
+
+.card h3,
+p {
+  margin-left: 10px;
+}
+
+.im1 {
+  background-color: skyblue;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.im2 {
+  background-color: rgb(194, 193, 193);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+/* photo3 */
+.photo3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.text {
+  width: 700px;
+}
+
+.photo3 button {
+  padding: 10px;
+  margin-right: 30px;
+  color: skyblue;
+  border: 2px solid skyblue;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* photo4 */
+.photo4 {
+  margin-top: 50px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.circle img {
+  height: 110px;
+  width: 110px;
+  padding-bottom: 5px;
+}
+
+.circle h6 {
+  color: rgb(61, 178, 224);
+  padding-left: 5px;
+  margin: 0px;
+}
+
+.circle {
+  display: flex;
+  justify-content: space-evenly;
+  height: 260px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* photo5 */
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -10px;
+  margin-bottom: 60px;
+}
+
+.box img {
+  width: 240px;
+  height: 180px;
+}
+
+.box h4 {
+  margin: 7px 0px 0px;
+}
+
+.box a:hover h4 {
+  color: rgb(33, 164, 216);
+}
+
+.box p {
+  margin: 0px;
+}
+
+.box {
+  width: 240px;
+  padding: 7px;
+  margin: 0px 6px;
+}
+
+/* Link page */
+.link-page {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+
+}
+
+.link1 {
+  width: 330px;
+  margin-top: 50px;
+}
+
+.link1 h1 {
+  font-size: xx-large;
+  margin: 10px 0px 0px;
+}
+
+.link1 button {
+  padding: 15px 25px;
+  font-size: 13px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(61, 184, 233);
+  color: white;
+}
+
+.linkp {
+  width: 300px;
+  margin: 10px;
+}
+
+.linkp img {
+  width: 290px;
+  height: 200px;
+}
+
+.linkp h4,
+h6,
+p {
+  margin: 5px;
+}
+
+.link2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* download */
+.down1 {
+  width: 450px;
+}
+
+#num {
+  background-color: white;
+  padding: 14px;
+  width: 20px;
+  border: 1px solid rgb(223, 221, 221);
+}
+
+#num::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+#num1 {
+  padding: 14px;
+  border: 1px solid rgb(223, 221, 221);
+}
+
+#send {
+  margin-left: 14px;
+  padding: 14px 25px;
+  background-color: rgb(61, 184, 233);
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.download {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px 200px;
+}
+
+.down1 img {
+  width: 130px;
+  height: 38px;
+  margin: 25px 10px;
+}
+
+.in1 {
+  display: flex;
+}
+
+.in2 {
+  display: flex;
+}
+
+/* footer */
+.footer {
+  padding: 20px 50px;
+  background-color: rgb(47, 47, 138);
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fo li {
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  margin: 1px;
+}
+
+.fo li:hover {
+  text-decoration: underline;
+}
+
+.foot2 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+/* =================================== Second page =================================== */
+
+/* one */
+.nav p {
+  margin: 0px 0px;
+  color: rgb(121, 121, 121);
+  font-size: 11px;
+}
+
+.navbar {
+  margin: 17px 15px;
+  display: flex;
+}
+
+.a {
+  margin-left: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.one1 {
+  padding: 0px 50px;
+}
+
+.one2 {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 20px 0px 10px 0px;
+  background-color: white;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar21 a {
+  color: rgb(121, 121, 121);
+  margin: 15px;
+}
+
+.navbar21 label {
+  display: none;
+}
+
+.navbar22 select {
+  color: rgb(121, 121, 121);
+  border: none;
+  margin-right: 50px;
+}
+
+.navbar22 input {
+  padding: 3px;
+  width: 250px;
+}
+
+/* second */
+
+.two {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-image: url("../public/images/second_page_1_photo.jpg");
+}
+
+.two1 {
+  background-color: rgb(233, 233, 233);
+  margin: -100px 0px;
+}
+
+.two2 {
+  background-color: rgb(243, 243, 243);
+  margin: 0px 100px;
+}
+
+.two22 {
+  display: flex;
+}
+
+#two3 {
+  background-color: white;
+  width: 470px;
+  margin: 0px 50px 0px 150px;
+  position: relative;
+  top: -100px;
+  padding: 20px;
+  display: flex;
+}
+
+.social img {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.m img {
+  display: none;
+}
+
+.m {
+  display: flex;
+}
+
+#divvv {
+  margin-top: 260px;
+  position: sticky;
+  /* top: 47px; */
+  top: 3rem;
+}
+
+.discription h1 {
+  color: rgb(66, 66, 66);
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.discription {
+  padding: 10px 15px;
+}
+
+.q {
+  color: rgb(99, 99, 99);
+  font-size: 19px;
+}
+
+#long {
+  width: 400px;
+}
+
+.lastbutton {
+  margin: 35px 0px;
+}
+
+.lastbutton a {
+  border: 1px solid rgb(163, 163, 163);
+  color: rgb(131, 130, 130);
+  padding: 6px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+#lastlist ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+#lastlist li {
+  margin-left: 25px;
+  color: rgb(73, 73, 73);
+  font-size: 15px;
+}
+
+#lastlist li:hover {
+  text-decoration: underline;
+}
+
+#lastlist {
+  width: 1150px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.media {
+  display: none;
+}
+
+
+
+
+/* ======================== RESPONSIVE ============================== */
+
+/* ====== First page ===== */
+@media only screen and (max-width:1100px) {
+  body {
+    margin: 0;
+  }
+
+  .nav1 {
+    display: none;
+  }
+
+  .Search-photo,
+  .link-page {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  .nav2 {
+    display: none;
+  }
+
+  #dis {
+    display: block;
+    padding: 0px 12px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: white;
+    color: rgb(53, 183, 235);
+    border: 1px solid rgb(53, 183, 235);
+    margin-right: -50px;
+  }
+
+  .bx {
+    display: block;
+    margin: 15px 0px 0px -50px;
+    font-size: 25px;
+  }
+}
+
+/* ====== Secondpage ====== */
+@media only screen and (max-width:1100px) {
+  .navbar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:990px) {
+  .navbar21 a {
+    display: none;
+  }
+
+  .navbar21 label {
+    display: block;
+    color: rgb(121, 121, 121);
+  }
+}
+
+@media only screen and (max-width:800px) {
+
+  /* .nav2{
+    display: none;
+  } */
+  /* .bx{
+    display: block;
+    margin:15px 0px 0px -50px;
+    font-size: 25px;
+    } */
+  .hide {
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .hide p {
+    /* margin-left: 10px; */
+    font-size: 14px;
+    color: rgb(12, 12, 12);
+  }
+}
+
+@media only screen and (max-width:800px) {
+  .navbar22 input {
+    width: 45px;
+    padding: 10px;
+  }
+
+  #two3 {
+    margin: 100px 0px 0px -30px;
+    /* width: 500px; */
+    width: 100%;
+    padding: 0px 30px;
+  }
+
+  .two2 {
+    margin: 0px;
+  }
+
+  .single {
+    display: none;
+  }
+
+  #lastlist {
+    display: none;
+  }
+
+  #p {
+    display: none;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .m img {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 15px 35px;
+    display: block;
+  }
+
+  .n {
+    display: flex;
+  }
+
+  .n label {
+    margin-top: 5px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .media {
+    display: block;
+    background-color: rgb(47, 47, 138);
+  }
+  .media select{
+    background-color: rgb(47, 47, 138);
+    color: white;
+    width: 100%;
+    padding: 20px 10px;
+    border: none;
+  }
+  .media option{
+    text-decoration: none;
+    border: none;
+  }
+  .media hr{
+    border: 1px solid rgb(141, 130, 236);
+  }
+
+}
+
+@media only screen and (max-width:550px) {
+
+  .two {
+    display: none;
+  }
+
+  .back {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-image: url("../public/images/second_page_1_photo.jpg");
+
+  }
+
+}
