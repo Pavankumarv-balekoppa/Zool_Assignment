@@ -1,7 +1,19 @@
 import { Link } from "react-router-dom";
 import Footer2 from "./Footer2";
+import { useEffect, useState } from "react";
 
 const Second = () => {
+
+    let [second,setsecond]=useState([])
+
+    useEffect(()=>{
+        let fetching=async()=>{
+             let response=await fetch("http://localhost:7777/secondpage")
+             let data=await response.json()
+             setsecond(data)
+         }
+         fetching()
+     },[])
     return (
         <div className="secondpage">
             <section className="one1">
@@ -108,13 +120,15 @@ const Second = () => {
                                             floating around. Believing in any of these myths can be more dangerous than the disease itself.</p><br />
                                         <p>Here are some of the most common misbeliefs about Coronavirus along with the actual facts that
                                             you should be aware of:</p><br />
-                                        <img id="long" src="./images/longimage2.jpg" alt="" />
-                                        <img id="long" src="./images/longimage1.jpg" alt="" />
-                                        <img id="long" src="./images/longimage3.jpg" alt="" />
-                                        <img id="long" src="./images/longimage4.jpg" alt="" /><br /><br />
+
+                                            {second.map((x)=>(
+                                        <img id="long" src={x.second} alt="" />
+                                            ))}
+
+                                        
                                         <p>This information is important and must be shared with all. It is recommended to stay hydrated,
                                             stay away from people who are sick or down with a cold/ cough/ fever and maintain hand & face
-                                            hygiene at all times to avoid catching an infection. </p>
+                                            hygiene at all times to avoid catching an infection.</p>
                                     </div>
                                     <div className="lastbutton">
                                         <a href="">Viruese</a>
@@ -166,8 +180,8 @@ const Second = () => {
                     </div>
                 </div>
             </section>
-            <Footer2/>
-            
+            <Footer2 />
+
         </div>
     );
 }

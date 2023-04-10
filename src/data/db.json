@@ -1,0 +1,97 @@
+{
+    "card": [
+        {
+            "card": "https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png",
+            "h3": "Instant Video Cunsultation",
+            "p": "Connect within 60secs"
+        },
+        {
+            "card": "https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_find_doctors.png",
+            "h3": "Find Doctors Near You",
+            "p": "Confirmed appointments"
+        },
+        {
+            "card": "https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_medicines.png",
+            "h3": "Medicines",
+            "p": "Essential at your doorsteps"
+        },
+        {
+            "card": "https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_lab_tests.png",
+            "h3": "Lab Tests",
+            "p": "Sample picup at your home"
+        },
+        {
+            "card": "https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_surgeries.png",
+            "h3": "Surgeries",
+            "p": "Safe and trusted surgery centers"
+        }
+    ],
+    "circle": [
+        {
+            "circle": "https://www.practostatic.com/consult/consult-home/symptoms_icon/irregular-painful+period.png",
+            "p": "Period doubts or Pregnancy",
+            "h6": "CONSULT NOW"
+        },
+        {
+            "circle": "https://www.practostatic.com/consult/consult-home/symptoms_icon/Acne.png",
+            "p": "Acne,pimple or skin issues",
+            "h6": "CONSULT NOW"
+        },
+        {
+            "circle": "https://www.practo.com/consult/static/images/top-speciality-sexology.svg",
+            "p": "Performance issue in bed",
+            "h6": "CONSULT NOW"
+        },
+        {
+            "circle": "https://www.practostatic.com/consult/consult-home/symptoms_icon/coughing.png",
+            "p": "Cold,Cough or Fever",
+            "h6": "CONSULT NOW"
+        },
+        {
+            "circle": "https://www.practo.com/consult/static/images/top-speciality-pediatric.svg",
+            "p": "Child not feeling well",
+            "h6": "CONSULT NOW"
+        },
+        {
+            "circle": "https://www.practostatic.com/acred/search-assets/2/12-mental-wellness.png",
+            "p": "Depression or anxiety",
+            "h6": "CONSULT NOW"
+        }
+    ],
+    "boxs": [
+        {
+            "box": "https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg",
+            "h4": "Dentist",
+            "p": "Teething troubles? Shedule a dental checkup"
+        },
+        {
+            "box": "https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-gynecologist@2x.jpg",
+            "h4": "Gynecologist/Obstetrician",
+            "p": "Explore for women's helth , pregnancy and infertility treatments"
+        },
+        {
+            "box": "https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dietitian@2x.jpg",
+            "h4": "Dietitian/Nutrition",
+            "p": "Get guidance on eating right,weight management and sport nutrition"
+        },
+        {
+            "box": "https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-physiotherapist@2x.jpg",
+            "h4": "Physiotherapist",
+            "p": "Pulled a muscle? Get it treated by a trined physiotherapist"
+        }
+    ],
+    "secondpage": [
+        {
+            "second": "https://www.practostatic.com/fit/e3f03b05c79711abef5a8f6b6f2667b1f1b208f5"
+        },
+        {
+            "second": "https://www.practostatic.com/fit/7bd23dcf77f5f481a08badf79570845fd4ad49cb"
+        },
+        {
+            "second": "https://www.practostatic.com/fit/4abd7fc47ab2f2cfae7e3795723abda2ac646c1f"
+        },
+        {
+            "second": "https://www.practostatic.com/fit/df0c18a866e15dce488a37d784c38109a31ac513"
+        }
+    ]
+}
