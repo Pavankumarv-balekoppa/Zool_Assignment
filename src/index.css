@@ -68,17 +68,17 @@ hr {
 
 .Search-photo,
 .link-page {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 230px;
+  margin-right: 200px;
 }
 .photo1 img{
-  width: 1200px;
-  height: 380px;
+  width: 920px;
+  height: 280px;
 }
 .in2 a {
   display: flex;
   justify-content: space-around;
-  padding: 5px;
+  /* padding: 5px; */
   width: 230px;
   height: 37px;
   margin-right: -20px;
@@ -123,6 +123,7 @@ hr {
 
 .card p {
   color: rgb(117, 117, 117);
+  font-size: 15px;
 }
 
 .card h3,
@@ -198,14 +199,16 @@ p {
 }
 
 .box img {
-  width: 270px;
-  height: 200px;
+  width: 210px;
+  height: 160px;
   border-radius: 5px;
 }
 
 .box h4 {
   margin: 7px 0px 0px;
+  color: rgb(105, 105, 105);
 }
+
 
 .box a:hover h4 {
   color: rgb(33, 164, 216);
@@ -213,6 +216,8 @@ p {
 
 .box p {
   margin: 0px;
+  font-size: 13px;
+  color: rgb(105, 105, 105);
 }
 
 .box {
@@ -226,6 +231,7 @@ p {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+  margin: 0px 250px;
 
 }
 
@@ -235,7 +241,7 @@ p {
 }
 
 .link1 h1 {
-  font-size: xx-large;
+  font-size: 25px;
   margin: 10px 0px 0px;
 }
 
@@ -249,13 +255,13 @@ p {
 }
 
 .linkp {
-  width: 300px;
+  width: 250px;
   margin: 10px;
 }
 
 .linkp img {
-  width: 290px;
-  height: 200px;
+  width: 240px;
+  height: 170px;
 }
 
 .linkp h4,

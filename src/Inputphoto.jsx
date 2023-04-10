@@ -1,12 +1,10 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import Second from "./Second";
 const Inputphoto = () => {
 
     let[card,setcard]=useState([])
     let[circle,setcircle]=useState([])
     let[box,setbox]=useState([])
-    let[second,setsecond]=useState([])
 
     useEffect(()=>{
        let fetching=async()=>{
@@ -16,12 +14,9 @@ const Inputphoto = () => {
             let data2=await response2.json()
             let response3=await fetch("http://localhost:7777/boxs")
             let data3=await response3.json()
-            let response4=await fetch("http://localhost:7777/secondpage")
-            let data4=await response4.json()
             setcard(data1)
             setcircle(data2)
             setbox(data3)
-            setsecond(data4)
         }
         fetching()
     },[])
