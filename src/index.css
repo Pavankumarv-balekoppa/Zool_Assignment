@@ -500,7 +500,9 @@ p {
   /* top: 47px; */
   top: 3rem;
 }
-
+.single{
+  margin-left: -45px;
+}
 .discription h1 {
   color: rgb(66, 66, 66);
   font-size: 35px;

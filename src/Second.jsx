@@ -149,7 +149,7 @@ const Second = () => {
                             </div>
                             <div style={{ marginTop: 90 }} className="single">
                                 <Link to="/">
-                                    <img width={340} height={230} src="./images/single.png" alt="" />
+                                    <img width={300} height={200} src="./images/single.png" alt="" />
                                 </Link>
                             </div>
                         </div>
